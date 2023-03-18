@@ -1,11 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Alert from './components/Alert/Alert';
 
 function App() {
   return (
     <div className="App">
-     <h1>here</h1>
+      <Alert />
     </div>
   );
 }
