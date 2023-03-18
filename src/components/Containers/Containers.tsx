@@ -1,6 +1,14 @@
 export default function Containers() {
+
+  // Tailwind Breakpoinsts for Containers 
+  //   container	None	width: 100%;
+  //   sm (640px)	    max-width: 640px;
+  //   md (768px)	    max-width: 768px;
+  //   lg (1024px)	  max-width: 1024px;
+  //   xl (1280px)	  max-width: 1280px;
+  //   2xl (1536px)	  max-width: 1536px; 
   return (
-    <div>
+    <div className="container mx-auto">
       <article>
         <h3>Article</h3>
         <p>
@@ -10,6 +18,23 @@ export default function Containers() {
           sunt, maiores quasi. Modi amet quos dolores!
         </p>
       </article>
+      {/* Margin */}
+      <div className="my-4">Margin</div>
+      <div className="m-2 bg-slate-100 ">{`m-2`}</div>
+      <div className="ml-4 bg-slate-100">{`ml-4`}</div>
+      <div className="mr-4 bg-slate-100">{`mr-4`}</div>
+      <div className="mt-4 bg-slate-100">{`mt-4`}</div>
+      <div className="mb-4 bg-slate-100">{`mb-4`}</div>
+      <div className="mx-4 bg-slate-100">{`mx-4`}</div>
+
+      {/* Padding */}
+      <div className="py-4">Padding</div>
+      <div className="p-2 bg-slate-100 ">{`p-2`}</div>
+      <div className="pl-4 bg-slate-100">{`pl-4`}</div>
+      <div className="pr-4 bg-slate-100">{`pr-4`}</div>
+      <div className="pt-4 bg-slate-100">{`pt-4`}</div>
+      <div className="pb-4 bg-slate-100">{`pb-4`}</div>
+      <div className="px-4 bg-slate-100">{`px-4`}</div>
     </div>
   );
 }
