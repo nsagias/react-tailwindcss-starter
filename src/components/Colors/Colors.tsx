@@ -67,7 +67,8 @@ export default function Colors() {
       {/* Custom Inline Colors */}
       <h1 className="mt-12"></h1>
       <div className="bg-[#427fab] text-white">{boilerPlate}</div>
-      <div className="bg-[#427] text-white">{boilerPlate}</div>
+      <div className="bg-[rgb(255,0,0)] text-white">{boilerPlate}</div>
+      <div className="bg-[steelblue]">{boilerPlate}</div>
 
       <h1 className="mb-12"></h1>
     </div>
