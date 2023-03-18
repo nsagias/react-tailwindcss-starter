@@ -16,6 +16,7 @@
 .alert-logo {
   height: 3rem;
   width: 3rem;
+  color: red;
 }
 
 .alert-body {
