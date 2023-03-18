@@ -35,6 +35,30 @@ export default function Containers() {
       <div className="pt-4 bg-slate-100">{`pt-4`}</div>
       <div className="pb-4 bg-slate-100">{`pb-4`}</div>
       <div className="px-4 bg-slate-100">{`px-4`}</div>
-    </div>
+
+      {/* Space Between x */}
+      <h3 className="my-4">Space Between X</h3>
+      <div className="flex space-x-4">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+        <div>Item 4</div>
+        <div>Item 5</div>
+        <div>Item 6</div>
+        <div>Item 7</div>
+      </div>
+
+      {/* Space Between y */}
+      <h3 className="my-4">Space Between y</h3>
+      <div className="flex flex-col space-y-4">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+        <div>Item 4</div>
+        <div>Item 5</div>
+        <div>Item 6</div>
+        <div>Item 7</div>
+      </div>
+   </div>
   );
 }
