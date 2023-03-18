@@ -1,5 +1,6 @@
 export default function Colors() {
   const boilerPlate = "Tailwind boilerplate text";
+  const buttonBoilerPlate = "Subscribe";
   return (
     <div className="items-center max-w-sm mx-auto mt-12">
       {/* Text Color Examples */}
@@ -39,6 +40,36 @@ export default function Colors() {
         <div>Item 4</div>
         <div>Item 5</div>
       </div>
+
+      {/* Outline Colors */}
+      <h1 className="mt-12"></h1>
+      <button className="outline outline-red-500">{buttonBoilerPlate}</button>
+      <button className="outline outline-blue-200">{buttonBoilerPlate}</button>
+
+
+      {/* Box Shadow Colors (Opacity defaults to 100) */}
+      <button className="shadow-lg bg-cyan-500 shadow-cyan-500">{buttonBoilerPlate}</button>
+      <button className="shadow-lg bg-cyan-500 shadow-purple-500/50">{buttonBoilerPlate}</button>
+
+      {/* Accent Colors */}
+      <h1 className="mt-12"></h1>
+      <input
+        type="checkbox"
+        className="accent-purple-500"
+        checked
+      />
+      <input
+        type="checkbox"
+        className="accent-cyan-500"
+        checked
+      />
+
+      {/* Custom Inline Colors */}
+      <h1 className="mt-12"></h1>
+      <div className="bg-[#427fab] text-white">{boilerPlate}</div>
+      <div className="bg-[#427] text-white">{boilerPlate}</div>
+
+      <h1 className="mb-12"></h1>
     </div>
   );
 }
