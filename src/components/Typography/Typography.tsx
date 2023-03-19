@@ -1,5 +1,15 @@
 export default function Typography() {
+  const boilerplate = "Tailwind typography";
   return (
-    <h1>Typography</h1>
+    <div>
+      <h1>Typography</h1>
+
+      {/* Font Family */}
+      <div className="font-sans">{boilerplate}</div>
+      <div className="font-serif">{boilerplate}</div>
+      <div className="font-mono">{boilerplate}</div>
+
+      
+    </div>
   );
 }
