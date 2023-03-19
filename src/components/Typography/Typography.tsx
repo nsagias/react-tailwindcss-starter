@@ -7,56 +7,75 @@ export default function Typography() {
 
       {/* Font Family */}
     
-      <div className="text-lg font-bold underline mt-2">Font Family</div>
+      <p className="text-lg font-bold underline mt-2">Font Family</p>
       <hr />
-      <div className="font-sans">font-sans: {boilerplate}</div>
-      <div className="font-serif">font-serif: {boilerplate}</div>
-      <div className="font-mono">font-mono: {boilerplate}</div>
+      <p className="font-sans">font-sans: {boilerplate}</p>
+      <p className="font-serif">font-serif: {boilerplate}</p>
+      <p className="font-mono">font-mono: {boilerplate}</p>
 
       {/* Font Size */}
-      <div className="text-lg font-bold underline mt-2">Font Size</div>
+      <p className="text-lg font-bold underline mt-2">Font Size</p>
       <hr />
-      <div className="text-xs">text-xs: {boilerplate}</div>
-      <div className="text-sm">text-sm: {boilerplate}</div>
-      <div className="text-base">text-base: {boilerplate}</div>
-      <div className="text-lg">text-lg: {boilerplate}</div>
-      <div className="text-xl">text-xl: {boilerplate}</div>
-      <div className="text-2xl">text-2xl: {boilerplate}</div>
-      <div className="text-3xl">text-3xl: {boilerplate}</div>
+      <p className="text-xs">text-xs: {boilerplate}</p>
+      <p className="text-sm">text-sm: {boilerplate}</p>
+      <p className="text-base">text-base: {boilerplate}</p>
+      <p className="text-lg">text-lg: {boilerplate}</p>
+      <p className="text-xl">text-xl: {boilerplate}</p>
+      <p className="text-2xl">text-2xl: {boilerplate}</p>
+      <p className="text-3xl">text-3xl: {boilerplate}</p>
 
 
       {/* Font Weight */}
-      <div className="text-lg font-bold underline mt-2">Font Weight</div>
+      <p className="text-lg font-bold underline mt-2">Font Weight</p>
       <hr />
-      <div className="font-light">font-light: {boilerplate}</div>
-      <div className="font-normal">font-normal: {boilerplate}</div>
-      <div className="font-medium">font-medium: {boilerplate}</div>
-      <div className="font-semibold">font-semibold: {boilerplate}</div>
-      <div className="font-bold">font-bold: {boilerplate}</div>
+      <p className="font-light">font-light: {boilerplate}</p>
+      <p className="font-normal">font-normal: {boilerplate}</p>
+      <p className="font-medium">font-medium: {boilerplate}</p>
+      <p className="font-semibold">font-semibold: {boilerplate}</p>
+      <p className="font-bold">font-bold: {boilerplate}</p>
 
       {/* Letter Spacing */}
-      <div className="text-lg font-bold underline mt-2">Letter Spacing</div>
+      <p className="text-lg font-bold underline mt-2">Letter Spacing</p>
       <hr />
+      <p className="tracking-tight">tracking-tight: {boilerplate}</p>
+      <p className="tracking-normal">tracking-normal: {boilerplate}</p>
+      <p className="tracking-wide">tracking-wide: {boilerplate}</p>
+      <p className="tracking-widest">tracking-widest: {boilerplate}</p>
 
       {/* Text Alignment */}
-      <div className="text-lg font-bold underline mt-2">Text Alignment</div>
+      <p className="text-lg font-bold underline mt-2">Text Alignment</p>
       <hr />
+      <p className="text-left">text-left: {boilerplate}</p>
+      <p className="text-center">text-center: {boilerplate}</p>
+      <p className="text-right">text-right: {boilerplate}</p>
 
       {/* Text Decoration */}
-      <div className="text-lg font-bold underline mt-2">Text Decoration</div>
+      <p className="text-lg font-bold underline mt-2">Text Decoration</p>
       <hr />
+      <p className="underline decoration-4">underline decoration-4: {boilerplate}</p>
+      <p className="line-through">line-through: {boilerplate}</p>
 
+     
       {/* Decoration Style */}
-      <div className="text-lg font-bold underline mt-2">Decoration Style</div>
+      <p className="text-lg font-bold underline mt-2">Decoration Style</p>
       <hr />
+      <p className="underline decoration-4 decoration-blue-400">underline decoration-4 decoration-blue-400: {boilerplate}</p>
+      <p className="underline decoration-double">underline decoration-double: {boilerplate}</p>
+      <p className="underline decoration-dotted">underline decoration-dotted: {boilerplate}</p>
+      <p className="underline decoration-dashed">underline decoration-dash: {boilerplate}</p>
+      <p className="underline decoration-wavy">underline decoration-wavy: {boilerplate}</p>
+
 
       {/* Decoration Offset */}
-      <div className="text-lg font-bold underline mt-2">Decoration Offset</div>
+      <p className="text-lg font-bold underline mt-2">Decoration Offset</p>
+      <p className="underline decoration-4 decoration-blue-400 underline-offseet-8">underline decoration-4 decoration-blue-400 underline-offset-8: {boilerplate}</p>
       <hr />
 
       {/* Text Transform */}
-      <div className="text-lg font-bold underline mt-2">Text Transform</div>
+      <p className="text-lg font-bold underline mt-2">Text Transform</p>
       <hr />
+
+
    </div>
   );
 }
