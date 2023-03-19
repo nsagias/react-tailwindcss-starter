@@ -1,5 +1,5 @@
 export default function Typography() {
-  const boilerplate = "Tailwind typography";
+  const boilerplate = "Tailwind typography awesome";
   return (
     <div>
       <h1>Typography</h1>
@@ -8,8 +8,6 @@ export default function Typography() {
       <div className="font-sans">{boilerplate}</div>
       <div className="font-serif">{boilerplate}</div>
       <div className="font-mono">{boilerplate}</div>
-
-      
-    </div>
+   </div>
   );
 }
