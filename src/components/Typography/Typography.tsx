@@ -54,7 +54,8 @@ export default function Typography() {
       <hr />
       <p className="underline decoration-4">underline decoration-4: {boilerplate}</p>
       <p className="line-through">line-through: {boilerplate}</p>
-
+      <p className="overline">overline: {boilerplate}</p>
+      <p className="no-underline">no-underline: {boilerplate}</p>
      
       {/* Decoration Style */}
       <p className="text-lg font-bold underline mt-2">Decoration Style</p>
@@ -68,14 +69,16 @@ export default function Typography() {
 
       {/* Decoration Offset */}
       <p className="text-lg font-bold underline mt-2">Decoration Offset</p>
-      <p className="underline decoration-4 decoration-blue-400 underline-offseet-8">underline decoration-4 decoration-blue-400 underline-offset-8: {boilerplate}</p>
+      <p className="underline decoration-4 decoration-blue-400 underline-offset-8">underline decoration-4 decoration-blue-400 underline-offset-8: {boilerplate}</p>
       <hr />
 
       {/* Text Transform */}
       <p className="text-lg font-bold underline mt-2">Text Transform</p>
       <hr />
-
-
+      <p className="normal-case">normal-case: {boilerplate}</p>
+      <p className="uppercase">uppercase: {boilerplate}</p>
+      <p className="lowercase">lowercase: {boilerplate}</p>
+      <p className="capitalize">capitalize: {boilerplate}</p>
    </div>
   );
 }
