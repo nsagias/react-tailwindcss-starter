@@ -46,6 +46,7 @@ export default function Interactivity() {
         <li className="">Item 5</li>
         <li className="">Item 6</li>
       </ul>
+
       <p className="text-lg font-bold underline mt-2">Pseudo Classes nthn2</p>
       <ul className="[&>*:nth-child(odd)]:bg-red-400 [&>*:nth-child(even)]:bg-cyan-200 [&>*:nth-child(4)]:hidden">
         <li className="">Item 1</li>
@@ -59,10 +60,28 @@ export default function Interactivity() {
 
 
       {/* Appearance */}
-      <p className="test-lg font-bold underline mt-2">Appearance</p>
+      <p className="test-lg font-bold underline mt-2">Appearance Removing default element appearance</p>
+      <select name="" id="" className="appearance-none">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+
+      <br />
 
       {/* Cursor */}
       <p className="text-lg font-bold underline mt-2">Cursor</p>
+      <button className="bg-black py-3 px-5 m-3 rounded-lg text-white">
+        Submit
+      </button>
+      <p className="cursor-pointer">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, accusamus.</p>
+
+      <button className="bg-black py-3 px-5 m-3 rounded-lg text-white cursor-wait">
+        Submit
+      </button>
+
+      <button className="bg-black py-3 px-5 m-3 rounded-lg text-white cursor-not-allowed">
+        Submit
+      </button>
 
       {/* Resize */}
       <p className="text-lg font-bold underline mt-2">Resize</p>
