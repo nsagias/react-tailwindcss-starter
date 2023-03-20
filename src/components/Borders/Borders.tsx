@@ -39,7 +39,9 @@ export default function Borders() {
     <div className="w-94 m-3 p-5 border-4 rounded-t-2xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, itaque!</div>
 
     <div className="w94 m-3 p-5 border-4 rounded-b-2xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, magni!</div>
+
     {/* Outline */}
+    <button className="m-3 p-5 outline outline-4 outline-red-500 rounded-full">Click Me!</button>
     </>
   );
 }
