@@ -70,6 +70,13 @@ export default function LayoutPosition() {
 
       {/* Z-Index */}
       <p className="text-lg font-bold underline mt-2">Z-Index</p>
+      <div className="relative h-36">
+        <div className="absolute h-24 w-24 bg-blue-300 z-40">1</div>
+        <div className="absolute left-20 h-24 w-24 bg-blue-400">2</div>
+        <div className="absolute left-40 h-24 w-24 bg-blue-500 z-10">3</div>
+        <div className="absolute left-60 h-24 w-24 bg-blue-600 z-20">4</div>
+        <div className="absolute left-80 h-24 w-24 bg-blue-700 z-30">5</div>
+      </div>
 
       {/* Floats */}
       <p className="text-lg font-bold underline mt-2">Floats</p>
