@@ -15,6 +15,7 @@ export default function Interactivity() {
 
       {/* Active State Styling */}
       <p className="text-lg font-bold underline mt-2">Active State Styling</p>
+      <button className="bg-black text-white py-3 px-5 rounded-lg m-3 active:bg-red-800 active:text-white">Submit</button>
 
       <br />
 
