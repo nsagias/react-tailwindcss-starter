@@ -32,12 +32,25 @@ export default function Sizing() {
       <p className="text-lg font-bold underline mt-2">Custom Width</p>
       <div className="bg-blue-500 text-white w-[300px]">"w-[300]px": {b}</div>
 
-      {/* Max width */}
+
+      {/* Max Width */}
       <p className="text-lg font-bold underline mt-2">Max Width</p>
       <div className="bg-blue-500 text-white max-w-sm my-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint inventore quam quod eveniet repellat rerum! Consectetur ipsa, eum dicta tenetur officiis nemo perferendis neque commodi consequuntur optio maiores. Iusto, deleniti?</div>
       <div className="bg-blue-500 text-white max-w-sm mx-auto my-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint inventore quam quod eveniet repellat rerum! Consectetur ipsa, eum dicta tenetur officiis nemo perferendis neque commodi consequuntur optio maiores. Iusto, deleniti?</div>
       <div className="bg-blue-500 text-white max-w-lg my-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint inventore quam quod eveniet repellat rerum! Consectetur ipsa, eum dicta tenetur officiis nemo perferendis neque commodi consequuntur optio maiores. Iusto, deleniti?</div>
       <div className="bg-blue-500 text-white max-w-lg mx-auto my-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint inventore quam quod eveniet repellat rerum! Consectetur ipsa, eum dicta tenetur officiis nemo perferendis neque commodi consequuntur optio maiores. Iusto, deleniti?</div>
+
+
+      {/* Max Height */}
+      <p className="text-lg font-bold underline mt-2">Max Height</p>
+      <div className="flex items-end">
+          <div className="bg-orange-700 text-white w-20 h-24">{b}</div>
+          <div className="bg-orange-700 text-white w-20 h-32">{b}</div>
+          <div className="bg-orange-700 text-white w-20 h-40">{b}</div>
+          <div className="bg-orange-700 text-white w-20 h-48">{b}</div>
+          <div className="bg-orange-700 text-white w-20 h-64">{b}</div>
+          <div className="bg-orange-700 text-white w-20 h-80">{b}</div>
+      </div>
     </div>
   )
 }
