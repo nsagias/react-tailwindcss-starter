@@ -51,6 +51,10 @@ export default function Sizing() {
           <div className="bg-orange-700 text-white w-20 h-64">{b}</div>
           <div className="bg-orange-700 text-white w-20 h-80">{b}</div>
       </div>
+
+      {/* Full Screen Height */}
+      <p className="text-lg font-bold underline mt-2">Full Screen Height</p>
+      <div className="bg-blue-300 text-white h-screen"></div>
     </div>
   )
 }
