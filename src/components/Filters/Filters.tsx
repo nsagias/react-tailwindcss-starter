@@ -35,6 +35,10 @@ export default function Filters() {
 
       {/* Grayscale */}
       <p className="font-bold text-2xl mt-8">Grayscale</p>
+      <img src={carImageUnsplash1} alt="" className="grayscale" />
+      <img src={carImageUnsplash1} alt="" className="grayscale-[70%]" />
+      <img src={carImageUnsplash1} alt="" className="grayscale-[50%]" />
+      <img src={carImageUnsplash1} alt="" className="grayscale-[30%]" />
 
       {/* Invert */}
       <p className="font-bold text-2xl mt-8">Ivert</p>
