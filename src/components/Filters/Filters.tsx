@@ -41,10 +41,13 @@ export default function Filters() {
       <img src={carImageUnsplash1} alt="" className="grayscale-[30%]" />
 
       {/* Invert */}
-      <p className="font-bold text-2xl mt-8">Ivert</p>
+      <p className="font-bold text-2xl mt-8">Invert</p>
+      <img src={carImageUnsplash1} alt="" className="invert" />
 
       {/* Sepia */}
       <p className="font-bold text-2xl mt-8">Sepia</p>
+      <img src={carImageUnsplash1} alt="" className="sepia" />
+      <img src={carImageUnsplash1} alt="" className="sepia-[50%]" />
 
       {/* Hue Rotate */} 
       <p className="font-bold text-2xl mt-8">Hue Rotate</p>
