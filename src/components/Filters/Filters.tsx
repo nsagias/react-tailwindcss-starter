@@ -19,6 +19,11 @@ export default function Filters() {
 
       {/* Brightness */}
       <p className="font-bold text-lg">Brightness</p>
+      <img src={carImageUnsplash1} alt="" className="brightness-100" />
+      <img src={carImageUnsplash1} alt="" className="brightness-50" />
+      <img src={carImageUnsplash1} alt="" className="brightness-75" />
+      <img src={carImageUnsplash1} alt="" className="brightness-150" />
+      <img src={carImageUnsplash1} alt="" className="brightness-200" />
 
       {/* Contrast */}
       <p className="font-bold text-lg">Contrast</p>
