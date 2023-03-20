@@ -62,6 +62,18 @@ export default function LayoutPosition() {
         <div className="absolute inset-x-0 bottom-0 h-16 bg-yellow-300"></div>
       </div>
 
+      {/* Display Classes */}
+      <p className="text-lg font-bold underline mt-2">Display Classes</p>
+      <div>
+        Lorem ipsum dolor sit amet consectetur <span className="inline font-bold uppercase"> this is inline</span>, adipisicing elit. Facilis incidunt repudiandae possimus quis beatae quaerat <span className="inline-block font-bold uppercase"> this is inline block</span> provident at atque consectetur voluptatibus perspiciatis maiores id architecto fuga, doloremque deserunt obcaecati. Sit eos praesentium suscipit <span className="block font-bold uppercase">This is block</span> alias autem repellendus fuga veniam consectetur eius temporibus minus ipsum architecto velit, <span className="hidden">This is hidden</span> deleniti nostrum natus nam doloribus assumenda eligendi voluptates reprehenderit! Autem, animi dignissimos dolorem rerum itaque esse!
+      </div>
+
+      {/* Z-Index */}
+      <p className="text-lg font-bold underline mt-2">Z-Index</p>
+
+      {/* Floats */}
+      <p className="text-lg font-bold underline mt-2">Floats</p>
+
 
     </div>
   );
