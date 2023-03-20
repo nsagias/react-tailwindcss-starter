@@ -5,6 +5,9 @@ export default function Interactivity() {
 
       {/*  Hover Styling */}
       <p className="text-lg font-bold underline mt-2">Hover Styling</p>
+      <button className="bg-black text-white py-3 px-5 rounded-lg m-3 hover:bg-blue-500 hover:text-white">
+        Submit
+      </button>      
 
       {/* Focus State Styling */}
       <p className="text-lg font-bold underline mt-2">Focus State Styling</p>
