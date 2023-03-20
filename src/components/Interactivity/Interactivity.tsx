@@ -28,6 +28,35 @@ export default function Interactivity() {
 
       {/* Pseudo Classes */}
       <p className="text-lg font-bold underline mt-2">Pseudo Classes</p>
+      <ul>
+        <li className="first:bg-red-400 even:bg-green-200 odd:bg-red-400">Item 1</li>
+        <li className="first:bg-red-400 even:bg-green-200 odd:bg-red-400">Item 2</li>
+        <li className="first:bg-red-400 even:bg-green-200 odd:bg-red-400">Item 3</li>
+        <li className="first:bg-red-400 even:bg-green-200 odd:bg-red-400">Item 4</li>
+        <li className="first:bg-red-400 even:bg-green-200 odd:bg-red-400">Item 5</li>
+        <li className="first:bg-red-400 even:bg-green-200 odd:bg-red-400">Item 6</li>
+      </ul>
+
+      <p className="text-lg font-bold underline mt-2">Pseudo Classes nth</p>
+      <ul className="[&>*:nth-child(odd)]:bg-red-500 [&>*:nth-child(even)]:bg-blue-500">
+        <li className="">Item 1</li>
+        <li className="">Item 2</li>
+        <li className="">Item 3</li>
+        <li className="">Item 4</li>
+        <li className="">Item 5</li>
+        <li className="">Item 6</li>
+      </ul>
+      <p className="text-lg font-bold underline mt-2">Pseudo Classes nthn2</p>
+      <ul className="[&>*:nth-child(odd)]:bg-red-400 [&>*:nth-child(even)]:bg-cyan-200 [&>*:nth-child(4)]:hidden">
+        <li className="">Item 1</li>
+        <li className="">Item 2</li>
+        <li className="">Item 3</li>
+        <li className="">Item 4</li>
+        <li className="">Item 5</li>
+        <li className="">Item 6</li>
+      </ul>
+
+
 
       {/* Appearance */}
       <p className="test-lg font-bold underline mt-2">Appearance</p>
