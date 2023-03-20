@@ -27,6 +27,14 @@ export default function BackgroundAndShadows() {
       <div className="w-96 mt-6 ml-4 p-3 shadow-2xl shadow-blue-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo nihil non laboriosam voluptatem sit nulla repudiandae assumenda labore dicta doloribus?</div>
 
       {/* Mix Blend */}
+      <div className="flex justify-center -space-x-24">
+        <div className="mix-blend-multiply bg-blue-400">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae provident voluptas distinctio a, molestiae dicta magnam culpa rerum totam obcaecati.
+        </div>
+        <div className="mix-blend-multiply bg-red-400">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique unde placeat nobis expedita maiores necessitatibus repellat illo amet ipsam fugit.
+        </div>
+      </div>
     </>
   );
 }
