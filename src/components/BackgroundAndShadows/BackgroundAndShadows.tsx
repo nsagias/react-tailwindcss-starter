@@ -7,6 +7,7 @@ export default function BackgroundAndShadows() {
           <span className="font-bold text-3xl bg-black text-white p-2">Background And Shadows</span> 
       </div>
       <div className="h-24 bg-gradient-to-r from-cyan-500 to-blue-500 mt-2"></div>
+      <div className="h-24 bg-gradient-to-l from-cyan-500 to-blue-500 mt-2"></div>
     </>
   );
 }
