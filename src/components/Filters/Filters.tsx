@@ -51,6 +51,11 @@ export default function Filters() {
 
       {/* Hue Rotate */} 
       <p className="font-bold text-2xl mt-8">Hue Rotate</p>
+      <img src={carImageUnsplash1} alt="" className="hue-rotate-15" />
+      <img src={carImageUnsplash1} alt="" className="hue-rotate-30" />
+      <img src={carImageUnsplash1} alt="" className="hue-rotate-60" />
+      <img src={carImageUnsplash1} alt="" className="hue-rotate-90" />
+      <img src={carImageUnsplash1} alt="" className="hue-rotate-180" />
     </>
   );
 }
