@@ -27,7 +27,11 @@ export default function Filters() {
 
       {/* Contrast */}
       <p className="font-bold text-2xl mt-8">Contrast</p>
-
+      <img src={carImageUnsplash1} alt="" className="contrast-0" />
+      <img src={carImageUnsplash1} alt="" className="contrast-50" />
+      <img src={carImageUnsplash1} alt="" className="contrast-100" />
+      <img src={carImageUnsplash1} alt="" className="contrast-150" />
+      <img src={carImageUnsplash1} alt="" className="contrast-200" />
 
       {/* Grayscale */}
       <p className="font-bold text-2xl mt-8">Grayscale</p>
