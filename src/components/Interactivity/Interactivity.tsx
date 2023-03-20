@@ -20,7 +20,11 @@ export default function Interactivity() {
       <br />
 
       {/* Styling Based On Parent State */}
-      <p className="text-lg font-bold underline mt-2">Styling Based On Parent state</p>
+      <p className="text-lg font-bold underline mt-2">Styling Based On Parent state (Group Hover)</p>
+      <a href="" className="group block max-w-xs mx-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-sky-500">
+        <h3 className="group-hover:text-white">Card Title</h3>
+        <p className="group-hover:text-white">This is card text</p>
+      </a>
 
       {/* Pseudo Classes */}
       <p className="text-lg font-bold underline mt-2">Pseudo Classes</p>
