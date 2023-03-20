@@ -83,15 +83,15 @@ export default function LayoutPosition() {
       {/* Floats */}
       <div className="w-1/2">
       <p className="text-lg font-bold underline mt-2">Floats</p>
-        <FiAlertTriangle className="h-48 w-48 text-red-900 float-right" />
+        <FiAlertTriangle className="h-48 w-48 text-red-900 float-right m-4" />
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium molestiae qui illum ipsa esse accusamus reiciendis similique, cum, quia sed soluta laborum sit natus neque quibusdam. Commodi consectetur dolor error!
         </p>
       </div>
-
+<br />
       <div className="w-1/2">
       <p className="text-lg font-bold underline mt-2">Floats</p>
-        <FiAlertTriangle className="h-48 w-48 text-red-900 float-left" />
+        <FiAlertTriangle className="h-48 w-48 text-red-900 float-left m-4" />
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium molestiae qui illum ipsa esse accusamus reiciendis similique, cum, quia sed soluta laborum sit natus neque quibusdam. Commodi consectetur dolor error!
         </p>
