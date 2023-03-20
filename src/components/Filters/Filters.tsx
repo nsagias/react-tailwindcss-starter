@@ -1,9 +1,6 @@
 export default function Filters() {
-  // <div 
-  //       className="h-64 w=[1000px] bg-cover bg-no-repeat bg-center"
-  //       style={{backgroundImage: `url(${"https://images.unsplash.com/photo-1526726538690-5cbf956ae2fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60"})`}}>
-  //         <span className="font-bold text-3xl bg-black text-white p-2">Background And Shadows</span> 
-  //     </div>
+
+  const carImageUnsplash1 = "https://images.unsplash.com/photo-1526726538690-5cbf956ae2fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60";
   return (
     <>
       <p className="font-bold text-xl underline">Filters</p>
@@ -16,9 +13,9 @@ export default function Filters() {
 
       <div className="blur-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum necessitatibus iste commodi sapiente ipsum accusamus nulla, maxime iure architecto cum.</div>
 
-      <img src={"https://images.unsplash.com/photo-1526726538690-5cbf956ae2fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60"} alt="cars" className="blur-xl" />
-      <img src={"https://images.unsplash.com/photo-1526726538690-5cbf956ae2fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60"} alt="cars" className="blur-lg" />
-      <img src={"https://images.unsplash.com/photo-1526726538690-5cbf956ae2fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60"} alt="cars" className="blur-sm" />
+      <img src={carImageUnsplash1} alt="cars" className="blur-xl" />
+      <img src={carImageUnsplash1} alt="cars" className="blur-lg" />
+      <img src={carImageUnsplash1} alt="cars" className="blur-sm" />
 
       {/* Brightness */}
       <p className="font-bold text-lg">Brightness</p>
