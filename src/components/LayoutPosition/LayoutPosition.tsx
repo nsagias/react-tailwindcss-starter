@@ -1,5 +1,7 @@
+import { FiAlertTriangle } from "react-icons/fi";
+
 export default function LayoutPosition() {
-  const b = "Tailwind";
+
   return (
     <div>
       <h1 className="flex justify-center text-xl font-bold">Layout Position</h1>
@@ -79,8 +81,21 @@ export default function LayoutPosition() {
       </div>
 
       {/* Floats */}
+      <div className="w-1/2">
       <p className="text-lg font-bold underline mt-2">Floats</p>
+        <FiAlertTriangle className="h-48 w-48 text-red-900 float-right" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium molestiae qui illum ipsa esse accusamus reiciendis similique, cum, quia sed soluta laborum sit natus neque quibusdam. Commodi consectetur dolor error!
+        </p>
+      </div>
 
+      <div className="w-1/2">
+      <p className="text-lg font-bold underline mt-2">Floats</p>
+        <FiAlertTriangle className="h-48 w-48 text-red-900 float-left" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium molestiae qui illum ipsa esse accusamus reiciendis similique, cum, quia sed soluta laborum sit natus neque quibusdam. Commodi consectetur dolor error!
+        </p>
+      </div>
 
     </div>
   );
