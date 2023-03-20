@@ -11,6 +11,7 @@ export default function Interactivity() {
 
       {/* Focus State Styling */}
       <p className="text-lg font-bold underline mt-2">Focus State Styling</p>
+      <button className="bg-black text-white py-3 px-5 rounded-lg m-3 focus:bg-blue-500 focus:text-white">Submit</button>
 
       {/* Active State Styling */}
       <p className="text-lg font-bold underline mt-2">Active State Styling</p>
