@@ -6,6 +6,7 @@ import Borders from './components/Borders/Borders';
 import Colors from './components/Colors/Colors';
 import Containers from './components/Containers/Containers';
 import Fitlers from './components/Filters/Filters';
+import Interactivity from './components/Interactivity/Interactivity';
 import LayoutPosition from './components/LayoutPosition/LayoutPosition';
 import Sizing from './components/Sizing/Sizing';
 import Typography from './components/Typography/Typography';
@@ -13,7 +14,7 @@ import Typography from './components/Typography/Typography';
 export default function App() {
   return (
     <div className="App">
-      <Fitlers />
+     <Interactivity />
     </div>
   );
 }
