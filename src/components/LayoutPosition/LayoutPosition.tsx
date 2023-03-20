@@ -25,24 +25,42 @@ export default function LayoutPosition() {
       <div className="relative h-32 w-32 bg-yellow-100">
         <div className="absolute right-0 top-0 h-16 w-16 bg-yellow-300"></div>
       </div>
+
       {/* Bottom Left Corner */}
       <p className="text-lg font-bold underline mt-2">Bottom Left Corner</p>
       <div className="relative h-32 w-32 bg-yellow-100">
         <div className="absolute left-0 bottom-0 h-16 w-16 bg-yellow-300"></div>
       </div>
+
       {/* Bottom Right Corner */}
       <p className="text-lg font-bold underline mt-2">Bottom Right Corner</p>
       <div className="relative h-32 w-32 bg-yellow-100">
         <div className="absolute right-0 bottom-0 h-16 w-16 bg-yellow-300"></div>
       </div>
+
       {/* Span Top Edge */}
       <p className="text-lg font-bold underline mt-2">Span Top Edge</p>
+      <div className="relative h-32 w-32 bg-yellow-100">
+        <div className="absolute inset-x-0 top-0 h-16 bg-yellow-300"></div>
+      </div>
+
       {/* Span Left Edge */}
       <p className="text-lg font-bold underline mt-2">Span Left Edge</p>
+      <div className="relative h-32 w-32 bg-yellow-100">
+        <div className="absolute inset-y-0 left-0 w-16 bg-yellow-300"></div>
+      </div>
+
       {/* Span Right Edge */}
       <p className="text-lg font-bold underline mt-2">Span Right Edge</p>
+      <div className="relative h-32 w-32 bg-yellow-100">
+        <div className="absolute inset-y-0 right-0 w-16 bg-yellow-300"></div>
+      </div>
+      
       {/* Span Bottom Edge */}
       <p className="text-lg font-bold underline mt-2">Span Bottom Edge</p>
+      <div className="relative h-32 w-32 bg-yellow-100">
+        <div className="absolute inset-x-0 bottom-0 h-16 bg-yellow-300"></div>
+      </div>
 
 
     </div>
