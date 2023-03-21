@@ -10,6 +10,7 @@ import Containers from './components/containers/Containers';
 import Fitlers from './components/filters/Filters';
 import FlexAndAlignItems from './components/flex/FlexAndAlignItems';
 import FlexColumnGapAndOrder from './components/flex/FlexColumGapAndOrder';
+import FlexShrink from './components/flex/FlexShrink';
 import Interactivity from './components/interactivity/Interactivity';
 import LayoutPosition from './components/layoutPosition/LayoutPosition';
 import Sizing from './components/sizing/Sizing';
@@ -18,7 +19,7 @@ import Typography from './components/typography/Typography';
 export default function App() {
   return (
     <div className="App">
-      <FlexColumnGapAndOrder />
+        <FlexShrink />
     </div>
   );
 }
