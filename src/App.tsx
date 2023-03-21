@@ -1,18 +1,18 @@
 import './App.css';
-import Alert from './components/Alert/Alert';
-import AlertTailwind from './components/Alert/AlertTailwind';
-import BackgroundAndShadows from './components/BackgroundAndShadows/BackgroundAndShadows';
-import Borders from './components/Borders/Borders';
-import BreakPoints from './components/Breakpoints/BreakPoints';
-import Colors from './components/Colors/Colors';
-import Columns from './components/Columns/Columns';
-import Containers from './components/Containers/Containers';
-import Fitlers from './components/Filters/Filters';
-import Flex from './components/Flex/Flex';
-import Interactivity from './components/Interactivity/Interactivity';
-import LayoutPosition from './components/LayoutPosition/LayoutPosition';
-import Sizing from './components/Sizing/Sizing';
-import Typography from './components/Typography/Typography';
+import Alert from './components/alert/Alert';
+import AlertTailwind from './components/alert/AlertTailwind';
+import BackgroundAndShadows from './components/backgroundAndShadows/BackgroundAndShadows';
+import Borders from './components/borders/Borders';
+import BreakPoints from './components/breakpoints/BreakPoints';
+import Colors from './components/colors/Colors';
+import Columns from './components/columns/Columns';
+import Containers from './components/containers/Containers';
+import Fitlers from './components/filters/Filters';
+import Flex from './components/flex/Flex';
+import Interactivity from './components/interactivity/Interactivity';
+import LayoutPosition from './components/layoutPosition/LayoutPosition';
+import Sizing from './components/sizing/Sizing';
+import Typography from './components/typography/Typography';
 
 export default function App() {
   return (

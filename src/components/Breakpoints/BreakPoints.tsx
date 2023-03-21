@@ -1,4 +1,4 @@
-import useWindowDimensions from "../../Utils/useWindowDimensions";
+import useWindowDimensions from "../../utils/useWindowDimensions";
 
 export default function BreakPoints() {
 
