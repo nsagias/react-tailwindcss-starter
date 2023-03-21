@@ -8,7 +8,7 @@ import Colors from './components/colors/Colors';
 import Columns from './components/columns/Columns';
 import Containers from './components/containers/Containers';
 import Fitlers from './components/filters/Filters';
-import Flex from './components/flex/Flex';
+import Flex from './components/flex/FlexAndAlignItems';
 import Interactivity from './components/interactivity/Interactivity';
 import LayoutPosition from './components/layoutPosition/LayoutPosition';
 import Sizing from './components/sizing/Sizing';

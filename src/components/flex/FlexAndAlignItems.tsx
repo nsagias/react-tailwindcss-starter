@@ -1,4 +1,4 @@
-export default function Flex () {
+export default function FlexAndAlignItems () {
   return (
     <div >
       <p className="text-xl font-bold underline">Flex Box</p>
