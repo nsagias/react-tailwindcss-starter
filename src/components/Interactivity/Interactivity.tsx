@@ -3,6 +3,10 @@ export default function Interactivity() {
     <>
       <p className="text-xl font-bold underline mt-2">Interactivity</p>
 
+      {/* Scroll to item */}
+
+      <a href="#item">Scroll To Item</a>
+      <p className="text-lg font-bold underline mt-2">Scroll to item</p>
       {/*  Hover Styling */}
       <p className="text-lg font-bold underline mt-2">Hover Styling</p>
       <button className="bg-black text-white py-3 px-5 rounded-lg m-3 hover:bg-blue-500 hover:text-white">
@@ -85,10 +89,21 @@ export default function Interactivity() {
 
       {/* Resize */}
       <p className="text-lg font-bold underline mt-2">Resize</p>
+      <textarea className="border border-black rounded resize"></textarea>
 
       {/* User Select */}
       <p className="text-lg font-bold underline mt-2">User Select</p>
+      <div className="select-none">Lorem ipsum dolor sit amet.</div>
+      <div className="select-text">Lorem ipsum dolor sit amet.</div>
+      <div className="select-all">Lorem ipsum dolor sit amet.</div>
+      <div className="select-auto">Lorem ipsum dolor sit amet.</div>
 
+
+      {/* Scroll */}
+      <p className="text-lg font-bold underline mt-2">scroll through text section</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, in! Quisquam iste officiis atque dicta quod sequi perferendis consectetur voluptas commodi? Id distinctio ratione eaque deserunt harum, laudantium sapiente nulla ab officiis, aliquid minima pariatur cum. Quaerat inventore, architecto repellendus recusandae impedit similique sint quam id culpa optio numquam eos.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quas officia qui veniam culpa commodi id hic corrupti recusandae adipisci fugit sapiente vero corporis minus, rem mollitia aut reiciendis nisi repudiandae omnis error perferendis deleniti saepe! Recusandae laboriosam rerum, blanditiis quia sed, aliquam quibusdam quisquam atque exercitationem suscipit obcaecati nihil!</p>
+      <div className="text-2xl mb-12"id="item">Item</div>
     </>
   );
 }
