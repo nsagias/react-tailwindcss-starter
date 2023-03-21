@@ -8,6 +8,7 @@ import Colors from './components/Colors/Colors';
 import Columns from './components/Columns/Columns';
 import Containers from './components/Containers/Containers';
 import Fitlers from './components/Filters/Filters';
+import Flex from './components/Flex/Flex';
 import Interactivity from './components/Interactivity/Interactivity';
 import LayoutPosition from './components/LayoutPosition/LayoutPosition';
 import Sizing from './components/Sizing/Sizing';
@@ -16,7 +17,7 @@ import Typography from './components/Typography/Typography';
 export default function App() {
   return (
     <div className="App">
-      <Columns />
+      <Flex />
     </div>
   );
 }
