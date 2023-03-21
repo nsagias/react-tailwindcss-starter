@@ -8,7 +8,8 @@ import Colors from './components/colors/Colors';
 import Columns from './components/columns/Columns';
 import Containers from './components/containers/Containers';
 import Fitlers from './components/filters/Filters';
-import Flex from './components/flex/FlexAndAlignItems';
+import FlexAndAlignItems from './components/flex/FlexAndAlignItems';
+import FlexColumnGapAndOrder from './components/flex/FlexColumGapAndOrder';
 import Interactivity from './components/interactivity/Interactivity';
 import LayoutPosition from './components/layoutPosition/LayoutPosition';
 import Sizing from './components/sizing/Sizing';
@@ -17,7 +18,7 @@ import Typography from './components/typography/Typography';
 export default function App() {
   return (
     <div className="App">
-      <Flex />
+      <FlexColumnGapAndOrder />
     </div>
   );
 }
