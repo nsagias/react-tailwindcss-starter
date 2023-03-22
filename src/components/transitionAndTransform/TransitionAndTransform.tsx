@@ -38,7 +38,7 @@ export default function TransitionAndTransform() {
         Confirm
       </button>
 
-      <img src={carImageUnsplash1} alt="" className="w-48 hover:rotate-180 hover:scale-150 transition-transform duration-1000" />
+      <img src={carImageUnsplash1} alt="" className="w-48 hover:rotate-180 hover:scale-150 transition-transform duration-2000" />
 
 
     </div>
