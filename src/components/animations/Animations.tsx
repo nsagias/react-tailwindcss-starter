@@ -29,8 +29,6 @@ export default function Animations() {
       <div className="flex flex-col items-center justify-center bg-primary mt-12">
         <FiAlertTriangle className="h-48 w-48 text-white animate-wiggle" />
       </div>
-      
-      
     </div>
   );
 }
