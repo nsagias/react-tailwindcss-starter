@@ -2,11 +2,24 @@ import { FiAlertTriangle } from "react-icons/fi";
 
 export default function Animations() {
   return (
-    <div>
-      <p className="text-xl font-bold underline">Animation and Keyframes</p>
-      <div className="flex items-center justify-center min-h-screen bg-slate-900">
-        <FiAlertTriangle className="h-24 w-24 text-white" />
+    <div className="min-h-screen bg-slate-900">
+      <p className="text-xl font-bold underline text-white">Animation and Keyframes</p>
+      <div className="flex flex-col items-center justify-center mt-12">
+        <FiAlertTriangle className="h-48 w-48 text-white animate-spin" />
       </div>
+
+      <div className="flex flex-col items-center justify-center bg-slate-900 mt-12">
+        <FiAlertTriangle className="h-48 w-48 text-white animate-pulse" />
+      </div>
+
+      <div className="flex flex-col items-center justify-center bg-slate-900 mt-12">
+        <FiAlertTriangle className="h-48 w-48 text-white animate-ping" />
+      </div>
+
+      <div className="flex flex-col items-center justify-center bg-slate-900 mt-12">
+        <FiAlertTriangle className="h-48 w-48 text-white animate-bounce" />
+      </div>
+      
     </div>
   );
 }
