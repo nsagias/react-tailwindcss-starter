@@ -8,6 +8,11 @@ export default function Animations() {
         <FiAlertTriangle className="h-48 w-48 text-white animate-spin" />
       </div>
 
+      <div className="flex flex-col items-center justify-center mt-12">
+        <FiAlertTriangle className="h-48 w-48 text-white animate-spin-slow" />
+      </div>
+
+
       <div className="flex flex-col items-center justify-center bg-slate-900 mt-12">
         <FiAlertTriangle className="h-48 w-48 text-white animate-pulse" />
       </div>
