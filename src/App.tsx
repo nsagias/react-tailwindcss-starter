@@ -1,6 +1,8 @@
 import './App.css';
 import Alert from './components/alert/Alert';
 import AlertTailwind from './components/alert/AlertTailwind';
+import Animations from './components/animations/Animations';
+
 import BackgroundAndShadows from './components/backgroundAndShadows/BackgroundAndShadows';
 import Borders from './components/borders/Borders';
 import BreakPoints from './components/breakpoints/BreakPoints';
@@ -22,7 +24,7 @@ import Typography from './components/typography/Typography';
 export default function App() {
   return (
     <div className="App">
-        <TransitionAndTransform />
+      <Animations />
     </div>
   );
 }
