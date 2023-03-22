@@ -18,6 +18,10 @@ module.exports = {
           "50%": { transform: "rotate(45deg)"}
         },
       },
+      colors: {
+        primary: "#1a237e",
+        secondary: "#b3e5fc",
+      },
     },
     fontFamily: {
       sans: ['ui-sans-serif', 'system-ui'],
