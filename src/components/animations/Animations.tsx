@@ -21,12 +21,12 @@ export default function Animations() {
         <FiAlertTriangle className="h-48 w-48 text-white animate-ping" />
       </div>
 
-      <div className="flex flex-col items-center justify-center bg-slate-900 mt-12">
+      <div className="flex flex-col items-center justify-center bg-secondary mt-12">
         <FiAlertTriangle className="h-48 w-48 text-white animate-bounce" />
       </div>
 
 
-      <div className="flex flex-col items-center justify-center bg-slate-900 mt-12">
+      <div className="flex flex-col items-center justify-center bg-primary mt-12">
         <FiAlertTriangle className="h-48 w-48 text-white animate-wiggle" />
       </div>
       
