@@ -16,12 +16,13 @@ import GridSpans from './components/grid/GridSpans';
 import Interactivity from './components/interactivity/Interactivity';
 import LayoutPosition from './components/layoutPosition/LayoutPosition';
 import Sizing from './components/sizing/Sizing';
+import TransitionAndTransform from './components/transitionAndTransform/TransitionAndTransform';
 import Typography from './components/typography/Typography';
 
 export default function App() {
   return (
     <div className="App">
-        <GridSpans />
+        <TransitionAndTransform />
     </div>
   );
 }
