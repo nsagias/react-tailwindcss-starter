@@ -1,4 +1,4 @@
-import ToggleSwitch from "./ToggleSwitch";
+import ToggleSwitch from "./components/toggleSwitch/ToggleSwitch";
 
 export default function DarkMode() {
   return (
