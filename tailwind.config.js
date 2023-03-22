@@ -4,7 +4,11 @@ module.exports = {
     "./index.html", 
     "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      transitionDuration: {
+        2000: "2000ms",
+      },
+    },
     fontFamily: {
       sans: ['ui-sans-serif', 'system-ui'],
       serif: ["Satisfy", "cursive"],
