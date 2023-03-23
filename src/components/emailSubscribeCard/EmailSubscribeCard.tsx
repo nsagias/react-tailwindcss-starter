@@ -33,6 +33,21 @@ export default function EmailSubscribeCard() {
               `}>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse dignissimos error non sapiente?
               </p>
+            <div className={`
+              flex mt-5 
+              flex-col md:flex-row 
+              space-y-4 md:space-x-3
+            `}>
+              <input 
+                type="text" 
+                placeholder="Enter your email address" 
+                className={`
+                  p-2 px-4  bg-zinc-800 border border-zinc-600 focus:outline-none
+                  text-white text-center md:text-left
+                  placeholder:text-xs placeholder:text-center placeholder:md:text-left
+                `} 
+              />
+            </div>
           </div>
         </div>
       </div>
