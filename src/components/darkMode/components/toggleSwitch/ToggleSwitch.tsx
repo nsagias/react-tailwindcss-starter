@@ -5,41 +5,29 @@ type ButtonText = { buttonOnText: string, buttonOffText: string };
 
 export default function ToggleSwitch({ buttonOnText, buttonOffText } : ButtonText ): JSX.Element {
 
-  console.log("BEFORE LOCAL STORAGE", localStorage.theme);
-  const classList = document && document.documentElement && document.documentElement.classList;
-  const clasListArray = Array.from(classList);
+  const [toggle, setToggle ] = useState<boolean>(localStorage.theme === "dark");
 
-
-  // let isDark: boolean = localStorage.theme == "dark" ? true :  clasListArray.filter(x => x === "dark")[0] === "dark" ? true : false;
-  let isDark: boolean = localStorage.theme == "dark";
  
-  const [toggle, setToggle ] = useState<boolean>(isDark);
-  
-
   if (toggle === false) {
     document.documentElement.classList.remove('dark');
   } else {
     document.documentElement.classList.add('dark');
   };
 
- 
-
-
   const toggleDarkTheme = (e: any, bool: boolean) => {
     e.preventDefault();
     setToggle(bool);
-    console.log("BOOL", bool)
-    bool ? localStorage.theme = "dark"  : localStorage.theme = "light"; 
-    console.log("LOCAL STORAGE", localStorage.theme)
+    
   };
-  const toggleUsedefaultTheme = (e: any) => {
+
+  useEffect(() => {
   
-    localStorage.removeItem("theme");
-  };
+  }, [toggle]);
 
 
   return (
     <div>
+
       <div className="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
         <input 
           type="checkbox" 
@@ -54,14 +42,11 @@ export default function ToggleSwitch({ buttonOnText, buttonOffText } : ButtonTex
          </label>
       </div>
 
-      <div className="flex">
       <label 
         htmlFor="toggle" 
-        className="text-xs text-gray-700">{!toggle ? buttonOnText : buttonOffText}</label>
-        <button
-        className="px-4, py-6"
-        onClick={ e => toggleUsedefaultTheme(e)}>remove theme</button>
-      </div>
+        className="text-xs text-gray-700">{!toggle ? buttonOnText : buttonOffText}
+      </label>
+   
     </div>
   );
 }
