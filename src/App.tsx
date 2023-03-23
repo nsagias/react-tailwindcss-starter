@@ -1,11 +1,11 @@
 import './App.css';
-import EmailSubscribeCard from './components/emailSubscribeCard/EmailSubscribeCard';
+import ProductModal from './components/productModal/ProductModal';
 
 
 export default function App() {
   return (
     <div className="App">
-      <EmailSubscribeCard />
+      <ProductModal />
     </div>
   );
 }
