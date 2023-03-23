@@ -1,4 +1,5 @@
 import ToggleSwitch from "./components/toggleSwitch/ToggleSwitch";
+import "./components/toggleSwitch/toggleSwitch.css";
 
 export default function DarkMode() {
   return (
@@ -8,7 +9,9 @@ export default function DarkMode() {
         <p className="text-slate-500 dark:text-slate-400 font-medium tracking-tight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quidem quos aspernatur nulla? Voluptate magni quo perferendis sint esse incidunt.</p>
       </div>
       <div className="flex justify-center mt-10">
-        <ToggleSwitch buttonText={"toggle me"} />
+        <ToggleSwitch 
+          buttonOnText={"Toggle Dark Mode On" }
+          buttonOffText={"Toggle Dark Mode Off"} />
       </div>
     </>
   );
