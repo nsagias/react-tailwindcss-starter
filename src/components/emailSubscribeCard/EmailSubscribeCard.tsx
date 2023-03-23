@@ -12,7 +12,12 @@ export default function EmailSubscribeCard() {
           <img 
             src="images/emailSubscribe/image.jpg" 
             alt="" 
-            className="" 
+            className={`
+              object-fit rounded-xl 
+              h-80 md:h-64 
+              md:rounded-l-xl md:rounded-r-none
+              hover:scale-105 hover:rounded-xl duration-200
+            `} 
           />
         </div>
       </div>
