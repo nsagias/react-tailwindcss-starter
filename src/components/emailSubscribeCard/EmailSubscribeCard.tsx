@@ -19,6 +19,21 @@ export default function EmailSubscribeCard() {
               hover:scale-105 hover:rounded-xl duration-200
             `} 
           />
+          {/* Content */}
+          <div className="p-6 md:p-12">
+            <h2 className={`
+              text-xl font-medium  text-white 
+              text-center md:text-left
+            `}>
+                Get diet tips delivered to your email
+            </h2>
+            <p className={`
+              max-w-xs my-4 text-xs leading-5 tracking-wide text-white t
+              ext-center md:text-left
+              `}>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse dignissimos error non sapiente?
+              </p>
+          </div>
         </div>
       </div>
     </div>
