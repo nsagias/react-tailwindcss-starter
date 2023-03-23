@@ -12,41 +12,24 @@ export default function EmailSubscribeCard() {
           <img 
             src="images/emailSubscribe/image.jpg" 
             alt="" 
-            className={`
-              object-fit rounded-xl 
-              h-80 md:h-64 
-              md:rounded-l-xl md:rounded-r-none
-              hover:scale-105 hover:rounded-xl duration-200
-            `} 
+            className="object-fit rounded-xl h-80 md:h-64 md:rounded-l-xl md:rounded-r-none transform hover:scale-105 hover:rounded-xl duration-200"
           />
           {/* Content */}
           <div className="p-6 md:p-12">
-            <h2 className={`
-              text-xl font-medium  text-white 
-              text-center md:text-left
-            `}>
+            <h2 className="font-serif text-xl font-medium text-center text-white md:text-left">
                 Get diet tips delivered to your email
             </h2>
-            <p className={`
-              max-w-xs my-4 text-xs leading-5 tracking-wide text-white t
-              ext-center md:text-left
-              `}>
+            <p className="max-w-xs my-4 text-xs leading-5 tracking-wide text-center text-white md:text-left">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse dignissimos error non sapiente?
               </p>
-            <div className={`
-              flex mt-5 
-              flex-col md:flex-row 
-              space-y-4 md:space-x-3
-            `}>
+              {/* Card input section */}            
+              <div className="flex flex-col mt-5 space-y-4 md:space-x-3 md:flex-row md:space-y-0">
               <input 
                 type="text" 
                 placeholder="Enter your email address" 
-                className={`
-                  p-2 px-4  bg-zinc-800 border border-zinc-600 focus:outline-none
-                  text-white text-center md:text-left
-                  placeholder:text-xs placeholder:text-center placeholder:md:text-left
-                `} 
+                className="p-2 px-4 text-center text-white bg-zinc-800 border border-zinc-600 placeholder:text-xs placeholder:text-center md:text-left placeholder:md:text-left focus:outline-none"
               />
+              <button className="px-5 py-3 text-xs rounded-md text-zinc-900 bg-lime-500 hover:bg-lime-700 hover:text-white duration-500">Subscribe</button>
             </div>
           </div>
         </div>
