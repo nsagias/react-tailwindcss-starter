@@ -44,7 +44,7 @@ export default function ProductModal() {
                     <p className="text-sm font-light tex-gray-400">Lorem ipsum dolor sit amet consectetur  elit. Delectus, commodi!</p>
                   </div>
 
-                  {/* Butto Group */}
+                  {/* Button Group */}
                   <div className="group">
 
                     {/* Button */}
@@ -53,6 +53,14 @@ export default function ProductModal() {
                     </button>
 
                   </div>
+
+                  {/* Stock Group*/}
+                  <div className="flex items-center space-x-3 group">
+                    {/* Stock Indicator Green Dot */}
+                    <div className="w-3 h-3 bg-green-400 rounded-full group-hover:animate-ping"></div>
+                    <div className="text-sm">50+ pcs in stock</div>
+                  </div>
+
 
               </div>
 
