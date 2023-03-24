@@ -44,6 +44,15 @@ export default function ProductModal() {
                     <p className="text-sm font-light tex-gray-400">Lorem ipsum dolor sit amet consectetur  elit. Delectus, commodi!</p>
                   </div>
 
+                  {/* Butto Group */}
+                  <div className="group">
+
+                    {/* Button */}
+                    <button className="w-full transition-all duration-150 bg-blue-800 text-white border-b-8 border-b-blue-800 rounded-lg group-hover:border-t-8 group-hover:border-b-0 group-hover:bg-blue-800 group-hover:border-t-blue-800 group-hover:shadow-lg">
+                      <div className="px-8 py-4 duration-150 bg-blue-600 rounded-lg group-hover:bg-blue-800">Add to cart</div>
+                    </button>
+
+                  </div>
 
               </div>
 
