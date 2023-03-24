@@ -21,14 +21,17 @@ export default function ProductModal() {
 
               {/* Label and Decription Container */}
               <div className="flex flex-col mb-4 space-y-3 text-center md:text-left">
-                {/* Label Container Flex */}
-                <div>
-                  {/* Label */}
-                  <div className="inline-block px-3 py-1 text-sm text-white bg-black rounded-full ">
-                    Free Shipping
+                  {/* Label Container Flex */}
+                  <div>
+                    {/* Label */}
+                    <div className="inline-block px-3 py-1 text-sm text-white bg-black rounded-full ">
+                      Free Shipping
+                    </div>
                   </div>
-
-                </div>
+                  {/* Description */}
+                  <div className="max-w-sm text-2xl font-medium">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </div>
 
               </div>
 
